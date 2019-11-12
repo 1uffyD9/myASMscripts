@@ -20,5 +20,6 @@ _start:
 
 	; exit the program gracefully
 	mov eax, 0x1	; invoke SYS_EXIT system call
+	mov ebx, 0x0	; return 0
 	int 0x80
 
